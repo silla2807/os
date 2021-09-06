@@ -20,29 +20,27 @@ grub-menu.
 
 4.Extract/untar the archive :
                              
-			          tar xf linux-5.14.tar.xz
+			         tar xf linux-5.14.tar.xz
 
 5.Change directory to extracted folder:
                                   
-		                  cd linux-5.14
+		                 cd linux-5.14
 
 6.Configure the kernel features:
                                 
-			          cp /boot/config-$(uname -r) .config
+			         cp /boot/config-$(uname -r) .config
 
 7.Install tools:
                 
-		                  sudo apt-get install libncurses-dev flex bison openssl
-                                  libssl-dev dkms libelf-dev libudev-dev libpci-dev
-                                  libiberty-dev autoconf
+		sudo apt-get install libncurses-dev flex bison openssl libssl-dev dkms libelf-dev libudev-dev libpci-dev libiberty-dev autoconf
 
 8.Configure the kernel:
                        
-		                    make menuconfig
+		                  make menuconfig
 
 9.Compilation of kernel: 
                 
-		                   i.sudo make
+		                  i.sudo make
 								
                                   ii.sudo make modules_install
 							 
@@ -50,6 +48,6 @@ grub-menu.
 
 10.Verification:
                               
-			            uname -r
+			           uname -r
 
 # os
