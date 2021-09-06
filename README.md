@@ -13,7 +13,8 @@ grub-menu.
 
 2.Install the required packages: 
                               i.sudo apt-get update
-			     ii.sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc
+															
+			                       ii.sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc
 
 4.Extract/untar the archive :
                              tar xf linux-5.14.tar.xz
@@ -34,7 +35,9 @@ grub-menu.
 
 9.Compilation of kernel: 
                 i.sudo make
+								
                ii.sudo make modules_install
+							 
               iii.sudo make install
 
 10.Verification:uname -r
