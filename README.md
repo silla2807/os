@@ -11,7 +11,7 @@ grub-menu.
 1.Download the source code: wget http://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.14.tar.xz
 
 2.Install the required packages: 
-         i.sudo apt-get update 
+         i.sudo apt-get update  
          ii.sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc
 
 4.Extract/untar the archive :tar xf linux-5.14.tar.xz
